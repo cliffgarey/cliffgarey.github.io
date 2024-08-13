@@ -128,4 +128,9 @@ nav ul li a {
     header{
       display: none;
     }
+    .profile-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
