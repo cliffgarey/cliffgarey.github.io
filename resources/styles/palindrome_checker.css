@@ -1,0 +1,74 @@
+:root {
+    --dark: #233142;
+    --blue: #455d7a; 
+    --salmon: #f95959;
+    --light: #e3e3e3;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 1.25em;
+    font-family: "helvetica", sans-serif;
+  }
+  
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color : var(--dark);
+    color: var(--light);
+  }
+  
+  
+  h1, h3, h4 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #palindrome-checker {
+    background-color: var(--blue);
+    text-align: center; 
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--light);
+    font-weight: bold;
+  }
+  
+  #text-input {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  #check-btn {
+    height: 30px;
+    width: 90px; 
+    border: none;
+    border-radius: 10px;
+    background-color: var(--salmon);
+    color: var(--light);
+    cursor: pointer;
+  }
+
+  #check-btn:hover {
+    box-shadow: 0 5px 8px 0 var(--light)
+  }
+  
+  #result {
+    font-weight: bold;
+    background-color: var(--salmon);
+    width: 285px;
+    min-height: 50px; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
